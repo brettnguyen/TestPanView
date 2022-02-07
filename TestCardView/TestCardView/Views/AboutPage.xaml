@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestCardView.Views.AboutPage"
+             xmlns:vm="clr-namespace:TestCardView.ViewModels"
+               xmlns:cards="clr-namespace:PanCardView;assembly=PanCardView"
+             Shell.NavBarIsVisible="False"
+             Shell.TabBarIsVisible="False">
+    
+    
+    
+
+    <Grid RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+      <cards:CarouselView Grid.Row="1"
+        ItemsSource="{Binding Items}"
+          IsVerticalSwipeEnabled="True"
+               SelectedItem="{Binding CurrentItem}"
+          IsHorizontalOrientation="False"
+       IsCyclical="False"
+          BackgroundColor="Red"
+      >
+
+        <cards:CarouselView.ItemTemplate>
+            <DataTemplate>
+                <ContentView>
+                   
+                        
+                        <Image Source="{Binding PostImage}"/> 
+                        
+                   
+                </ContentView>
+            </DataTemplate>
+        </cards:CarouselView.ItemTemplate>
+     </cards:CarouselView>
+    </Grid>
+
+</ContentPage>

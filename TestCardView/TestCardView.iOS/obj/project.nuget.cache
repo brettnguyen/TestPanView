@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "a4wE5/giuC7OtzwPZg5SaOyOjU5IZU0axq5nnubdqemmL4MLOob05l0Avuhg9t+L7O94Z+RH4EExGjCAKH1tkA==",
+  "success": true,
+  "projectFilePath": "/Users/brettnguyen/Desktop/TestCardView/TestCardView/TestCardView.iOS/TestCardView.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/brettnguyen/.nuget/packages/cardsview/2.8.0/cardsview.2.8.0.nupkg.sha512",
+    "/Users/brettnguyen/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/brettnguyen/.nuget/packages/webp.touch/1.0.8/webp.touch.1.0.8.nupkg.sha512",
+    "/Users/brettnguyen/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/brettnguyen/.nuget/packages/xamarin.ffimageloading/2.4.11.982/xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "/Users/brettnguyen/.nuget/packages/xamarin.ffimageloading.forms/2.4.11.982/xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "/Users/brettnguyen/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

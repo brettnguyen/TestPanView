@@ -1,0 +1,139 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/brettnguyen/Desktop/TestCardView/TestCardView/TestCardView.Android/TestCardView.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/brettnguyen/Desktop/TestCardView/TestCardView/TestCardView.Android/TestCardView.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/brettnguyen/Desktop/TestCardView/TestCardView/TestCardView.Android/TestCardView.Android.csproj",
+        "projectName": "TestCardView.Android",
+        "projectPath": "/Users/brettnguyen/Desktop/TestCardView/TestCardView/TestCardView.Android/TestCardView.Android.csproj",
+        "packagesPath": "/Users/brettnguyen/.nuget/packages/",
+        "outputPath": "/Users/brettnguyen/Desktop/TestCardView/TestCardView/TestCardView.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/brettnguyen/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid11.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid11.0": {
+            "projectReferences": {
+              "/Users/brettnguyen/Desktop/TestCardView/TestCardView/TestCardView/TestCardView.csproj": {
+                "projectPath": "/Users/brettnguyen/Desktop/TestCardView/TestCardView/TestCardView/TestCardView.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid11.0": {
+          "dependencies": {
+            "CardsView": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.FFImageLoading": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.FFImageLoading.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/brettnguyen/Desktop/TestCardView/TestCardView/TestCardView/TestCardView.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/brettnguyen/Desktop/TestCardView/TestCardView/TestCardView/TestCardView.csproj",
+        "projectName": "TestCardView",
+        "projectPath": "/Users/brettnguyen/Desktop/TestCardView/TestCardView/TestCardView/TestCardView.csproj",
+        "packagesPath": "/Users/brettnguyen/.nuget/packages/",
+        "outputPath": "/Users/brettnguyen/Desktop/TestCardView/TestCardView/TestCardView/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/brettnguyen/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "CardsView": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.FFImageLoading": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.FFImageLoading.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
